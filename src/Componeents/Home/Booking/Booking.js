@@ -3,20 +3,24 @@ import './Booking.CSS';
 
 function Booking() {
     return (
-        <section id="book-food">
-      <div classNameName="book-food">
-        <div classNameName="container book-food-text">
-          <div classNameName="row text-center">
-            <div classNameName="col-lg-9 col-md-12">
-              <h2>Baked fresh daily by bakers with passion.</h2>
+        <section>
+            <div className="book-food">
+                <div className="container" style={{height:'50vh'}}>
+                    <div className="container">
+                    <div className="row justify-content-center align-items-center ">
+                        <div className="col-lg-12 py-lg-5 text-center">
+                        <p className="text-muted lead">
+                            Organically Products
+                        </p>
+                        <h2 className="display-5 fw-bold">Everyday Fresh & Clean</h2>
+                        <button className="btn btn-main"></button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-            <div classNameName="col-lg-3 col-md-12 mt-lg-0 mt-4">
-              <button classNameName="btn btn-main">Learn more</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>    )
+        </section>
+    )
 }
 
-export default Booking;
+export default Booking
