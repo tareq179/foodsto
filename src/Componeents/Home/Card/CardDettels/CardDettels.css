@@ -1,0 +1,12 @@
+.card-bg1 {
+  background-image: url(../../../../images/img1-1.png);
+}
+.card-bg2 {
+  background-image: url(../../../../images/img2-1.png);
+}
+.card-bg3 {
+  background-image: url(../../../../images/img3-1.png);
+}
+.card-container {
+  height: 300px;
+}
