@@ -67,10 +67,19 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
+  border-radius: 1rem;
 }
 
 .bg-banner {
   background-color: #c9f3e1;
+}
+.food-baner {
+  width: 100%;
+  background: url("./images/video-bg.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
 }
 .btn {
   box-shadow: none !important;

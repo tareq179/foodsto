@@ -1,21 +1,22 @@
 import React from 'react';
-import './Booking.CSS';
 
 function Booking() {
     return (
-        <section>
-            <div className="book-food">
-                <div className="container" style={{height:'50vh'}}>
-                    <div className="container">
-                    <div className="row justify-content-center align-items-center ">
-                        <div className="col-lg-12 py-lg-5 text-center">
-                        <p className="text-muted lead">
+        <section id="food-banner">
+            <div className="container-fluid px-0 food-baner">
+                <div className="container">
+                    <div className="row justify-content-center align-items-center">
+                        <div className="col-lg-8 py-lg-5 text-center text-white">
+                            <p className="lead my-4 fw-bold">
                             Organically Products
-                        </p>
-                        <h2 className="display-5 fw-bold">Everyday Fresh & Clean</h2>
-                        <button className="btn btn-main"></button>
+                            </p>
+                            <h1>
+                                <div className="display-3 fw-bold">
+                                Everyday Fresh & Clean
+                                </div>
+                            </h1>
+                            <button className="btn btn-main"></button>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>

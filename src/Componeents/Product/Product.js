@@ -4,7 +4,6 @@ import dish from '../../images/snack-1-01.jpg';
 import bread from '../../images/breakfast-1-01-1.jpg';
 import bolthouse from '../../images/Juice-snack-2-02-600x600-1.png';
 import ProductCard from './ProductCard/ProductCard';
-import { product } from 'prelude-ls';
 
 function Product() {
     const productData=[
