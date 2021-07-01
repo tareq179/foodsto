@@ -7,6 +7,9 @@ import Product from '../Componeents/Product/Product';
 import Booking from '../Componeents/Home/Booking/Booking';
 import NuturalProduct from '../Componeents/Home/NuturalProduct/NuturalProduct';
 import WeekendOffer from '../Componeents/Home/WeekendOffer/WeedendOffer';
+import Testimonial from '../Componeents/Home/Testimonial/Testimonial';
+import Blog from '../Componeents/Home/Blog/Blog';
+import Footer from '../Componeents/Home/Footer/Footer';
 
 function Home() {
     return (
@@ -19,6 +22,9 @@ function Home() {
             <Booking/>
             <NuturalProduct/>
             <WeekendOffer/>
+            <Testimonial/>
+            <Blog/>
+            <Footer/>
         </div>
     )
 }

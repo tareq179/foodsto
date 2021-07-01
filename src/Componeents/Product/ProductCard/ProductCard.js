@@ -1,7 +1,6 @@
 import React from 'react';
 
 function ProductCard({product}) {
-    console.log('all product', product);
     return (
         <div className="col-lg-3 mb-5">
             <div className="card border-0 p-2 bg-light">

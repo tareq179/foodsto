@@ -59,10 +59,12 @@ function NuturalProduct() {
             <NuturalCard />
           </div>
           <div className="col-lg-8">
+            <div className="container">
             <div className="row">
               {productData.map((product) => (
                 <InfoCard product={product} key={product.name} />
               ))}
+            </div>
             </div>
           </div>
         </div>

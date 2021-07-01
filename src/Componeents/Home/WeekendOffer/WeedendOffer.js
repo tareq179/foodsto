@@ -8,7 +8,7 @@ function DiscountCard() {
                <div className="container">
                    <div className="row justify-content-center align-items-center">
                        <div className="col-sm-12">
-                           <div className="text-content text-center">
+                           <div className="text-center">
                            <p className="lead my-4 fw-bold">
                                 Weekend Ofeer
                             </p>
